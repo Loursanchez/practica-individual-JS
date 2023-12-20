@@ -51,3 +51,9 @@ function convertirMayusculas(cadena){
   return cadena.toUpperCase();
 }
 console.log(convertirMayusculas("mundo"));
+
+// Ejercicio 4 //
+function convertirMinusculas(cadena){
+  return cadena.toLowerCase();
+}
+console.log(convertirMinusculas("MUNDO"));
