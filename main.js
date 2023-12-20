@@ -45,3 +45,9 @@ function calcularLongitud(cadena){
   return cadena.length;
 }
 console.log(calcularLongitud("hola"));
+
+// Ejercicio 3 //
+function convertirMayusculas(cadena){
+  return cadena.toUpperCase();
+}
+console.log(convertirMayusculas("mundo"));
