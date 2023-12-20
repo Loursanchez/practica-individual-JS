@@ -38,4 +38,10 @@ console.log(elevarPotencia (5, 3));
 function concatenarCadenas(cadena1, cadena2){
   return cadena1 + cadena2;
 }
-console.log(concatenarCadenas ("Hola ", "mundo."))
+console.log(concatenarCadenas ("Hola ", "mundo."));
+
+// Ejercicio 2 //
+function calcularLongitud(cadena){
+  return cadena.length;
+}
+console.log(calcularLongitud("hola"));
