@@ -57,3 +57,9 @@ function convertirMinusculas(cadena){
   return cadena.toLowerCase();
 }
 console.log(convertirMinusculas("MUNDO"));
+
+// Ejercicio 5 //
+function obtenerCaracter(cadena, indice){
+  return cadena.charAt(indice);
+}
+console.log(obtenerCaracter("hola", 2));
