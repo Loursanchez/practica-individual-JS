@@ -63,3 +63,33 @@ function obtenerCaracter(cadena, indice){
   return cadena.charAt(indice);
 }
 console.log(obtenerCaracter("hola", 2));
+
+// Arrays //
+
+// Ejercicio 1 //
+function suma (array){
+  return array.reduce ((total, num)=> total + num, 0);
+};
+
+let array = [1, 2, 3, 4];
+
+console.log (suma(array));
+
+// Ejercicio 2 //
+function promedio (array1){
+  let suma = array1.reduce ((total, num)=> total + num, 0);
+  return suma / array1.length;
+}
+let array1 = [1, 2, 3, 4];
+
+console.log (promedio(array1))
+
+// Ejercicio 3 //
+let array2 = [4, 3, 2, 1];
+array2.sort (function(a, b){
+  return a - b
+});
+
+console.log (array2);
+
+// Ejercicio 4 //
