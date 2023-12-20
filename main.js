@@ -1,3 +1,7 @@
+// LISTA DE EJERCICIOS //
+
+// Números: //
+
 // Ejercicio 1 //
 function sumaNumeros(Num1, Num2) {
     return Num1 + Num2;
@@ -20,6 +24,12 @@ console.log(productoNumeros(5, 3));
 function divisionNumeros (Num1, Num2) {
   return Num1 / Num2
 }
-console.logdivisionNumeros (Num1, Num2) {
-  
+console.log(divisionNumeros (5, 3));
+
+// Ejercicio 5 //
+function elevarPotencia (base, exponente) {
+  return Math.pow (base, exponente);
 }
+console.log(elevarPotencia (5, 3));
+
+// Letras: //
