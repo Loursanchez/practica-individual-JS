@@ -33,3 +33,9 @@ function elevarPotencia (base, exponente) {
 console.log(elevarPotencia (5, 3));
 
 // Letras: //
+
+// Ejercicio 1 //
+function concatenarCadenas(cadena1, cadena2){
+  return cadena1 + cadena2;
+}
+console.log(concatenarCadenas ("Hola ", "mundo."))
